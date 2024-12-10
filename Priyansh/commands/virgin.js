@@ -1,7 +1,7 @@
 module.exports.config = {
 	name: "virgin",
 	version: "1.0.0",
-	hasPermssion: 0,
+	hasPermssion: 2,
 	credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
 	description: "Random picture of the most beautiful boy in Vietnam :))",
 	commandCategory: "Random-IMG",
