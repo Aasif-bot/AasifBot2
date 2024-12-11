@@ -44,7 +44,7 @@ module.exports.run = async function({ api, event, args, Users, Threads, Currenci
               imglove.push(fs.createReadStream(__dirname + "/cache/avt.png"));
               imglove.push(fs.createReadStream(__dirname + "/cache/giflove.png"));
               imglove.push(fs.createReadStream(__dirname + "/cache/avt2.png"));
-        var msg = {body: `『 ✨♡🌼•°𝐏𝐀𝐈𝐑𝐈𝐍𝐆°•🌼♡✨ 』\n\n     ︙︶🄲🄾🄽🄶🅁🄰🅃🅂︶︙\n\n     ะ๏ຼົะ一一一一๏ຼົ一一一一ะ๏ຼົะ\n       💕Double ratio: ${tle}%\n     ะ๏ຼົะ一一一一๏ຼົ一一一一ะ๏ຼົะ\n\n     `     +namee+"\n           "+"💓✨️"+"\n   "+name, mentions: arraytag, attachment: imglove}
+        var msg = {body: `✨♡🌼•°𝐏𝐀𝐈𝐑𝐈𝐍𝐆°•🌼♡✨\n     ︙︶🄲🄾🄽🄶🅁🄰🅃🅂︶︙\n\n     ะ๏ຼົะ一一一一๏ຼົ一一一一ะ๏ຼົะ\n       💕Double ratio: ${tle}%\n     ะ๏ຼົะ一一一一๏ຼົ一一一一ะ๏ຼົะ\n\n     `     +namee+"\n           "+"💓✨️"+"\n   "+name, mentions: arraytag, attachment: imglove}
         // var msg = {body: `🥰Successful pairing!\n💌Wish you two hundred years of happiness\n💕Double ratio: ${tle}%\n`+namee+" "+"💓"+" "+name, mentions: arraytag, attachment: imglove}  
          return api.sendMessage(msg, event.threadID, event.messageID)
       }
